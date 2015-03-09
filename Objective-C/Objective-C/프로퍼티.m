@@ -6,6 +6,8 @@
 //  Copyright (c) 2015년 beila. All rights reserved.
 //
 
+#if 0
+
 #import <Foundation/Foundation.h>
 
 @interface Car : NSObject
@@ -32,3 +34,5 @@ int main() {
     [p foo];
     //p.color = 50;
 }
+
+#endif
