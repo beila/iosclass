@@ -12,6 +12,7 @@
 		F9271D2A1AAD6F9C00500075 /* 타겟액션.m in Sources */ = {isa = PBXBuildFile; fileRef = F9271D291AAD6F9B00500075 /* 타겟액션.m */; };
 		F9271D2C1AAD739D00500075 /* 프로퍼티.m in Sources */ = {isa = PBXBuildFile; fileRef = F9271D2B1AAD739D00500075 /* 프로퍼티.m */; };
 		F9271D2E1AAD7E2800500075 /* 프로퍼티2.m in Sources */ = {isa = PBXBuildFile; fileRef = F9271D2D1AAD7E2800500075 /* 프로퍼티2.m */; };
+		F9271D301AAD8C0900500075 /* 초기화함수.m in Sources */ = {isa = PBXBuildFile; fileRef = F9271D2F1AAD8C0900500075 /* 초기화함수.m */; };
 		F9E31F591AAD2FA300DF3617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E31F581AAD2FA300DF3617 /* main.m */; };
 		F9E31F621AAD394500DF3617 /* 클래스기본문법.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E31F611AAD394500DF3617 /* 클래스기본문법.m */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		F9271D291AAD6F9B00500075 /* 타겟액션.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "타겟액션.m"; sourceTree = "<group>"; };
 		F9271D2B1AAD739D00500075 /* 프로퍼티.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "프로퍼티.m"; sourceTree = "<group>"; };
 		F9271D2D1AAD7E2800500075 /* 프로퍼티2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "프로퍼티2.m"; path = "../프로퍼티2.m"; sourceTree = "<group>"; };
+		F9271D2F1AAD8C0900500075 /* 초기화함수.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "초기화함수.m"; sourceTree = "<group>"; };
 		F9E31F551AAD2FA300DF3617 /* Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E31F581AAD2FA300DF3617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9E31F611AAD394500DF3617 /* 클래스기본문법.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "클래스기본문법.m"; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				F9271D291AAD6F9B00500075 /* 타겟액션.m */,
 				F9271D2B1AAD739D00500075 /* 프로퍼티.m */,
 				F9271D2D1AAD7E2800500075 /* 프로퍼티2.m */,
+				F9271D2F1AAD8C0900500075 /* 초기화함수.m */,
 			);
 			path = "Objective-C";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9271D261AAD475100500075 /* 메소드고급.m in Sources */,
+				F9271D301AAD8C0900500075 /* 초기화함수.m in Sources */,
 				F9E31F621AAD394500DF3617 /* 클래스기본문법.m in Sources */,
 				F9271D2C1AAD739D00500075 /* 프로퍼티.m in Sources */,
 				F9E31F591AAD2FA300DF3617 /* main.m in Sources */,

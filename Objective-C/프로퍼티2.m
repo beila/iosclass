@@ -6,6 +6,8 @@
 //  Copyright (c) 2015년 beila. All rights reserved.
 //
 
+#if 0
+
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject
@@ -47,3 +49,5 @@
 
 int main() {
 }
+
+#endif
