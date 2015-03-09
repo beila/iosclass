@@ -6,6 +6,8 @@
 //  Copyright (c) 2015년 beila. All rights reserved.
 //
 
+#if 0
+
 #import <Foundation/Foundation.h>
 
 @interface Car: NSObject
@@ -50,3 +52,5 @@ int main()
            Color:60];
     NSLog(@"%d, %d", [p2 speed], [p2 color]);
 }
+
+#endif
