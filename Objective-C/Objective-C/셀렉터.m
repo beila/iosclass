@@ -6,6 +6,8 @@
 //  Copyright (c) 2015년 beila. All rights reserved.
 //
 
+#if 0
+
 #import <Foundation/Foundation.h>
 
 @interface Car: NSObject
@@ -50,3 +52,5 @@ int main() {
     F f2 = (F)[p methodForSelector:s2];
     f2(p, s2);
 }
+
+#endif
