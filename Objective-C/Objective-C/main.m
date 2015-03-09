@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+# if 0
 int main(int argc, const char * argv[]) {
     const char* s1 = "Hello C";
     NSString* s2 = @"Hello Obj-C";
@@ -17,3 +18,5 @@ int main(int argc, const char * argv[]) {
     
     NSLog(@"%s %@", s1, s2);
 }
+
+#endif
