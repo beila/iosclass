@@ -6,6 +6,8 @@
 //  Copyright (c) 2015년 beila. All rights reserved.
 //
 
+#if 0
+
 #import <Foundation/Foundation.h>
 
 @interface Dialog : NSObject
@@ -42,3 +44,5 @@ int main() {
     [button2 addTarget:dialog action:@selector(close)];
     [button2 click];
 }
+
+#endif
