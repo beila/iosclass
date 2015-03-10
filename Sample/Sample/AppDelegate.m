@@ -28,10 +28,32 @@
     [button addTarget:self action:@selector(buttonClicked) forControlEvents:UIControlEventTouchUpInside];
     [_window addSubview:button];
     
+    UIButton* button2 = [UIButton buttonWithType:UIButtonTypeInfoDark];
+    button2.frame = CGRectMake(100, 200, 200, 50);
+    [button2 setTitle:@"second button" forState:UIControlStateNormal];
+    [button2 addTarget:self action:@selector(button2Clicked) forControlEvents:UIControlEventTouchUpInside];
+    [_window addSubview:button2];
+    
+    UIButton* button3 = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    button3.frame = CGRectMake(150, 300, 200, 50);
+    [button3 setTitle:@"third button" forState:UIControlStateNormal];
+    [button3 addTarget:self action:@selector(button3Clicked) forControlEvents:UIControlEventTouchUpInside];
+    [_window addSubview:button3];
+    
     [_window makeKeyAndVisible];
     return YES;
 }
 
+- (void)forwardInvocation:(NSInvocation *)anInvocation{
+    NSLog(@"%s", __func__);
+    NSLog(@"%@", anInvocation);
+}
+
+- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector{
+    NSLog(@"%s", __func__);
+    NSLog(@"%@", NSStringFromSelector(aSelector));
+    return nil;
+}
 
 - (void)buttonClicked{
     NSLog(@"%s", __func__);
@@ -41,6 +63,39 @@
                                delegate:self
                       cancelButtonTitle:@"Cancel"
                       otherButtonTitles:@"OK", nil] show];
+}
+
+- (void)button2Clicked{
+    NSLog(@"%s", __func__);
+    
+    UIActionSheet* sheet = [[UIActionSheet alloc] initWithTitle:@"title"
+                                                       delegate:self
+                                              cancelButtonTitle:@"Cancel"
+                                         destructiveButtonTitle:@"OK"
+                                              otherButtonTitles:@"No", nil];
+    [sheet showInView:_window];
+}
+
+- (void)button3Clicked
+{
+    NSLog(@"%s", __func__);
+    
+//    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"title"
+//                                                                   message:@"message"
+//                                                            preferredStyle:UIAlertControllerStyleAlert];
+//    [self presentViewController:alert
+//                       animated:YES
+//                     completion:^{ NSLog(@"%s", __func__); }];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    NSLog(@"%s %ld", __func__, (long)buttonIndex);
+}
+
+- (void)actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    NSLog(@"%s %ld", __func__, (long)buttonIndex);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -60,10 +115,10 @@
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    NSLog(@"%s", __func__);
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
+//- (void)applicationDidBecomeActive:(UIApplication *)application {
+//    NSLog(@"%s", __func__);
+//    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+//}
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     NSLog(@"%s", __func__);
