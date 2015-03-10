@@ -18,6 +18,13 @@
     [super dealloc];
 }
 
++ (Car*)carBlue
+{
+    Car* p = [[Car alloc] init];
+    [p autorelease];    // ARC일 때는 메소드 이름이 클래스 이름으로 시작해야만 autorelease를 자동으로 해준다!
+    return p;
+}
+
 @end
 
 int main() {
@@ -31,6 +38,8 @@ int main() {
         Car* p3 = p2;
         [p3 retain];
         [p3 autorelease];
+        
+        Car* p4 = [Car carBlue];
     }
     
     return 0;
