@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9B88C261AAE7D0C00B9A63D /* 객체생성.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88C251AAE7D0C00B9A63D /* 객체생성.m */; };
+		F9B88C281AAE7F6800B9A63D /* 프로토콜.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88C271AAE7F6800B9A63D /* 프로토콜.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,7 @@
 		F953AD4A1AAE6E8D0078C686 /* 클래스.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "클래스.m"; sourceTree = "<group>"; };
 		F9B88C231AAE742100B9A63D /* 참조계수.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "참조계수.m"; path = "../참조계수.m"; sourceTree = "<group>"; };
 		F9B88C251AAE7D0C00B9A63D /* 객체생성.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "객체생성.m"; sourceTree = "<group>"; };
+		F9B88C271AAE7F6800B9A63D /* 프로토콜.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "프로토콜.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				F9B88C251AAE7D0C00B9A63D /* 객체생성.m */,
+				F9B88C271AAE7F6800B9A63D /* 프로토콜.m */,
 				F9B88C231AAE742100B9A63D /* 참조계수.m */,
 				F953AD4A1AAE6E8D0078C686 /* 클래스.m */,
 			);
@@ -122,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B88C261AAE7D0C00B9A63D /* 객체생성.m in Sources */,
+				F9B88C281AAE7F6800B9A63D /* 프로토콜.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
