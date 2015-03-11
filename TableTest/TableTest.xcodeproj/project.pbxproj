@@ -13,6 +13,9 @@
 		F9B88DC31AB01BDC00B9A63D /* TableTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88DC21AB01BDC00B9A63D /* TableTestTests.m */; };
 		F9B88DCF1AB0204600B9A63D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88DCD1AB0204600B9A63D /* ViewController.m */; };
 		F9B88DD01AB0204600B9A63D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88DCE1AB0204600B9A63D /* ViewController.xib */; };
+		F9B88DD41AB0245B00B9A63D /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88DD21AB0245B00B9A63D /* TableViewCell.m */; };
+		F9B88DD51AB0245B00B9A63D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88DD31AB0245B00B9A63D /* TableViewCell.xib */; };
+		F9B88DD71AB0257200B9A63D /* 뽀로로.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9B88DD61AB0257200B9A63D /* 뽀로로.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,10 @@
 		F9B88DCC1AB0204600B9A63D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F9B88DCD1AB0204600B9A63D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F9B88DCE1AB0204600B9A63D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		F9B88DD11AB0245B00B9A63D /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		F9B88DD21AB0245B00B9A63D /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		F9B88DD31AB0245B00B9A63D /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F9B88DD61AB0257200B9A63D /* 뽀로로.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "뽀로로.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +86,7 @@
 		F9B88DA51AB01BDC00B9A63D /* TableTest */ = {
 			isa = PBXGroup;
 			children = (
+				F9B88DD61AB0257200B9A63D /* 뽀로로.jpg */,
 				F9B88DAA1AB01BDC00B9A63D /* AppDelegate.h */,
 				F9B88DAB1AB01BDC00B9A63D /* AppDelegate.m */,
 				F9B88DB31AB01BDC00B9A63D /* Images.xcassets */,
@@ -86,6 +94,9 @@
 				F9B88DCC1AB0204600B9A63D /* ViewController.h */,
 				F9B88DCD1AB0204600B9A63D /* ViewController.m */,
 				F9B88DCE1AB0204600B9A63D /* ViewController.xib */,
+				F9B88DD11AB0245B00B9A63D /* TableViewCell.h */,
+				F9B88DD21AB0245B00B9A63D /* TableViewCell.m */,
+				F9B88DD31AB0245B00B9A63D /* TableViewCell.xib */,
 			);
 			path = TableTest;
 			sourceTree = "<group>";
@@ -197,6 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9B88DD01AB0204600B9A63D /* ViewController.xib in Resources */,
+				F9B88DD51AB0245B00B9A63D /* TableViewCell.xib in Resources */,
+				F9B88DD71AB0257200B9A63D /* 뽀로로.jpg in Resources */,
 				F9B88DB41AB01BDC00B9A63D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9B88DCF1AB0204600B9A63D /* ViewController.m in Sources */,
+				F9B88DD41AB0245B00B9A63D /* TableViewCell.m in Sources */,
 				F9B88DAC1AB01BDC00B9A63D /* AppDelegate.m in Sources */,
 				F9B88DA91AB01BDC00B9A63D /* main.m in Sources */,
 			);

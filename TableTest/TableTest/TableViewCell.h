@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewCell.h
 //  TableTest
 //
 //  Created by Eizer-N39 on 2015. 3. 11..
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITableViewDataSource>
+@interface TableViewCell : UITableViewCell
 
 @end
