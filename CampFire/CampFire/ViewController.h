@@ -14,5 +14,6 @@
 
 - (IBAction)play:(id)sender;
 - (IBAction)pause:(id)sender;
+- (IBAction)sliderChanged:(id)sender;
 
 @end

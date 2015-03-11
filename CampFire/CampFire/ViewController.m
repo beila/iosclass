@@ -37,4 +37,15 @@
     NSLog(@"%s %@", __func__, sender);
     [_imageView stopAnimating];
 }
+
+- (IBAction)sliderChanged:(UISlider*)sender {
+    NSLog(@"%s %@", __func__, sender);
+    NSLog(@"%f", sender.value);
+    
+    BOOL isAnimating = _imageView.isAnimating;
+    _imageView.animationDuration = sender.value * 5.;
+    if (isAnimating) {
+        [_imageView startAnimating];
+    }
+}
 @end
