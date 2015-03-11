@@ -11,6 +11,8 @@
 		F9B88D721AAFF08500B9A63D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88D711AAFF08500B9A63D /* AppDelegate.m */; };
 		F9B88D7A1AAFF08500B9A63D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B88D791AAFF08500B9A63D /* Images.xcassets */; };
 		F9B88D891AAFF08500B9A63D /* PickerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88D881AAFF08500B9A63D /* PickerTestTests.m */; };
+		F9B88D951AB0073B00B9A63D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88D931AB0073B00B9A63D /* ViewController.m */; };
+		F9B88D961AB0073B00B9A63D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88D941AB0073B00B9A63D /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,9 @@
 		F9B88D821AAFF08500B9A63D /* PickerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B88D871AAFF08500B9A63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9B88D881AAFF08500B9A63D /* PickerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerTestTests.m; sourceTree = "<group>"; };
+		F9B88D921AB0073A00B9A63D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9B88D931AB0073B00B9A63D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9B88D941AB0073B00B9A63D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,9 @@
 				F9B88D711AAFF08500B9A63D /* AppDelegate.m */,
 				F9B88D791AAFF08500B9A63D /* Images.xcassets */,
 				F9B88D6C1AAFF08500B9A63D /* Supporting Files */,
+				F9B88D921AB0073A00B9A63D /* ViewController.h */,
+				F9B88D931AB0073B00B9A63D /* ViewController.m */,
+				F9B88D941AB0073B00B9A63D /* ViewController.xib */,
 			);
 			path = PickerTest;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B88D961AB0073B00B9A63D /* ViewController.xib in Resources */,
 				F9B88D7A1AAFF08500B9A63D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B88D951AB0073B00B9A63D /* ViewController.m in Sources */,
 				F9B88D721AAFF08500B9A63D /* AppDelegate.m in Sources */,
 				F9B88D6F1AAFF08500B9A63D /* main.m in Sources */,
 			);
