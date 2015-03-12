@@ -14,6 +14,8 @@
 		F9B88E421AB1136000B9A63D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88E401AB1136000B9A63D /* ViewController.m */; };
 		F9B88E431AB1136000B9A63D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88E411AB1136000B9A63D /* ViewController.xib */; };
 		F9B88E451AB1140300B9A63D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B88E441AB1140300B9A63D /* Default-568h@2x.png */; };
+		F9B88E491AB1200E00B9A63D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88E471AB1200E00B9A63D /* FirstViewController.m */; };
+		F9B88E4A1AB1200E00B9A63D /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88E481AB1200E00B9A63D /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		F9B88E401AB1136000B9A63D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F9B88E411AB1136000B9A63D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		F9B88E441AB1140300B9A63D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F9B88E461AB1200E00B9A63D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F9B88E471AB1200E00B9A63D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F9B88E481AB1200E00B9A63D /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				F9B88E3F1AB1135F00B9A63D /* ViewController.h */,
 				F9B88E401AB1136000B9A63D /* ViewController.m */,
 				F9B88E411AB1136000B9A63D /* ViewController.xib */,
+				F9B88E461AB1200E00B9A63D /* FirstViewController.h */,
+				F9B88E471AB1200E00B9A63D /* FirstViewController.m */,
+				F9B88E481AB1200E00B9A63D /* FirstViewController.xib */,
 			);
 			path = MultiView;
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 				F9B88E431AB1136000B9A63D /* ViewController.xib in Resources */,
 				F9B88E271AB1121900B9A63D /* Images.xcassets in Resources */,
 				F9B88E451AB1140300B9A63D /* Default-568h@2x.png in Resources */,
+				F9B88E4A1AB1200E00B9A63D /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				F9B88E421AB1136000B9A63D /* ViewController.m in Sources */,
 				F9B88E1F1AB1121900B9A63D /* AppDelegate.m in Sources */,
 				F9B88E1C1AB1121900B9A63D /* main.m in Sources */,
+				F9B88E491AB1200E00B9A63D /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

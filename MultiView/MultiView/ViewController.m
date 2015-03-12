@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FirstViewController.h"
 
 @interface ViewController ()
 
@@ -14,6 +15,7 @@
 
 - (IBAction)click1:(id)sender;
 - (IBAction)click2:(id)sender;
+- (IBAction)click3:(id)sender;
 
 @end
 
@@ -52,5 +54,15 @@
     [_childView removeFromSuperview];
     
     [UIView commitAnimations];
+}
+
+- (IBAction)click3:(id)sender {
+    NSLog(@"%s", __func__);
+    
+    FirstViewController* fvc = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
+    
+    fvc.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+    
+    [self presentViewController:fvc animated:YES completion:^(void){NSLog(@"%s completion", __func__);}];
 }
 @end

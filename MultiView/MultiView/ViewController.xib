@@ -28,6 +28,11 @@
                                 <action selector="click2:" destination="-1" id="f9P-YV-bQC"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem title="Item" id="bk1-Jm-0zm">
+                            <connections>
+                                <action selector="click3:" destination="-1" id="eAV-Uq-b9X"/>
+                            </connections>
+                        </barButtonItem>
                     </items>
                 </toolbar>
             </subviews>
