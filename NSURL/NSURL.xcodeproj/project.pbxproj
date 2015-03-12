@@ -13,6 +13,7 @@
 		F9173C091AB1832200A42818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9173C071AB1832200A42818 /* Main.storyboard */; };
 		F9173C0B1AB1832200A42818 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9173C0A1AB1832200A42818 /* Images.xcassets */; };
 		F9173C1A1AB1832300A42818 /* NSURLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9173C191AB1832300A42818 /* NSURLTests.m */; };
+		F9173C241AB185B800A42818 /* Gerardus Mercator’s 503rd Birthday.png in Resources */ = {isa = PBXBuildFile; fileRef = F9173C231AB185B700A42818 /* Gerardus Mercator’s 503rd Birthday.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		F9173C131AB1832300A42818 /* NSURLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9173C181AB1832300A42818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9173C191AB1832300A42818 /* NSURLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLTests.m; sourceTree = "<group>"; };
+		F9173C231AB185B700A42818 /* Gerardus Mercator’s 503rd Birthday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gerardus Mercator’s 503rd Birthday.png"; path = "NSURL/Gerardus Mercator’s 503rd Birthday.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		F9173BF11AB1832200A42818 = {
 			isa = PBXGroup;
 			children = (
+				F9173C231AB185B700A42818 /* Gerardus Mercator’s 503rd Birthday.png */,
 				F9173BFC1AB1832200A42818 /* NSURL */,
 				F9173C161AB1832300A42818 /* NSURLTests */,
 				F9173BFB1AB1832200A42818 /* Products */,
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9173C241AB185B800A42818 /* Gerardus Mercator’s 503rd Birthday.png in Resources */,
 				F9173C091AB1832200A42818 /* Main.storyboard in Resources */,
 				F9173C0B1AB1832200A42818 /* Images.xcassets in Resources */,
 			);

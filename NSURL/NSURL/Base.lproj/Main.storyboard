@@ -61,7 +61,7 @@
                                     <action selector="loadResource:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NWk-rY-bHC"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3LQ-Gm-DOJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3LQ-Gm-DOJ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="328"/>
                             </imageView>
                         </subviews>

@@ -33,6 +33,17 @@
 
 - (IBAction)loadResource:(id)sender {
     NSLog(@"%s", __func__);
+    
+    NSBundle* bundle = [NSBundle mainBundle];
+    NSString* path = [bundle pathForResource:@"Gerardus Mercator’s 503rd Birthday"
+                                      ofType:@"png"];
+    NSLog(@"%@", path);
+    
+    NSURL* url = [NSURL fileURLWithPath:path];
+    NSData* data = [NSData dataWithContentsOfURL:url];
+    UIImage* image = [UIImage imageWithData:data];
+    
+    _imageView.image = image;
 }
 
 - (IBAction)httpGet:(id)sender {
