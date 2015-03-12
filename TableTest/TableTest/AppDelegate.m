@@ -27,4 +27,11 @@
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    NSLog(@"%s %@ %@ %@", __func__, url, sourceApplication, annotation);
+    UIAlertView* v = [[UIAlertView alloc] initWithTitle:[url absoluteString] message:sourceApplication delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [v show];
+    return YES;
+}
+
 @end
