@@ -7,31 +7,32 @@
 //
 
 #import "ViewController.h"
+#import "FlipSideViewController.h"
 
 @interface ViewController ()
+
+- (IBAction)click:(id)sender;
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    NSLog(@"%s", __func__);
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)flipSideViewControllerDidFinish:(FlipSideViewController *)controller {
+    NSLog(@"%s", __func__);
+    [self dismissViewControllerAnimated:YES completion:^(void) {NSLog(@"%s", __func__);}];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)click:(id)sender {
+    FlipSideViewController *vc = [[FlipSideViewController alloc] initWithNibName:@"FlipSideViewController" bundle:nil];
+    vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    vc.delegate = self;
+    [self presentViewController:vc
+                       animated:YES
+                     completion:^(void){NSLog(@"%s", __func__);}];
 }
-*/
-
 @end

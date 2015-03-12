@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+@class FlipSideViewController;
+
+@protocol FlipSideViewControllerDelegate <NSObject>
+
+- (void)flipSideViewControllerDidFinish:(FlipSideViewController*)controller;
+
+@end
+
 @interface FlipSideViewController : UIViewController
+
+@property (weak, nonatomic) id<FlipSideViewControllerDelegate> delegate;
 
 @end

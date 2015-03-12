@@ -15,6 +15,7 @@
 		F9B88E811AB1259A00B9A63D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88E7F1AB1259A00B9A63D /* ViewController.xib */; };
 		F9B88E851AB125B200B9A63D /* FlipSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88E831AB125B200B9A63D /* FlipSideViewController.m */; };
 		F9B88E861AB125B200B9A63D /* FlipSideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88E841AB125B200B9A63D /* FlipSideViewController.xib */; };
+		F9B88E881AB126AD00B9A63D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B88E871AB126AD00B9A63D /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		F9B88E821AB125B200B9A63D /* FlipSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipSideViewController.h; sourceTree = "<group>"; };
 		F9B88E831AB125B200B9A63D /* FlipSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipSideViewController.m; sourceTree = "<group>"; };
 		F9B88E841AB125B200B9A63D /* FlipSideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipSideViewController.xib; sourceTree = "<group>"; };
+		F9B88E871AB126AD00B9A63D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		F9B88E4B1AB1244E00B9A63D = {
 			isa = PBXGroup;
 			children = (
+				F9B88E871AB126AD00B9A63D /* Default-568h@2x.png */,
 				F9B88E561AB1244E00B9A63D /* MultiView3 */,
 				F9B88E701AB1244F00B9A63D /* MultiView3Tests */,
 				F9B88E551AB1244E00B9A63D /* Products */,
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9B88E811AB1259A00B9A63D /* ViewController.xib in Resources */,
+				F9B88E881AB126AD00B9A63D /* Default-568h@2x.png in Resources */,
 				F9B88E861AB125B200B9A63D /* FlipSideViewController.xib in Resources */,
 				F9B88E651AB1244F00B9A63D /* Images.xcassets in Resources */,
 			);

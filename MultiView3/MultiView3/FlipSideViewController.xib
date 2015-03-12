@@ -13,9 +13,24 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cLD-cX-xjd">
+                    <rect key="frame" x="0.0" y="8" width="320" height="44"/>
+                    <items>
+                        <navigationItem title="Title" id="dqp-16-TYN">
+                            <barButtonItem key="leftBarButtonItem" title="Done" id="xhd-Uc-Cej">
+                                <connections>
+                                    <action selector="done:" destination="-1" id="gYN-Nc-s6X"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <point key="canvasLocation" x="280" y="303"/>
         </view>
+        <navigationItem title="Title" id="hoh-XY-Qlz"/>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
