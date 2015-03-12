@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9B88E5A1AB1244F00B9A63D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88E591AB1244F00B9A63D /* main.m */; };
+		F9B88E5D1AB1244F00B9A63D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88E5C1AB1244F00B9A63D /* AppDelegate.m */; };
+		F9B88E651AB1244F00B9A63D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B88E641AB1244F00B9A63D /* Images.xcassets */; };
+		F9B88E741AB1244F00B9A63D /* MultiView3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88E731AB1244F00B9A63D /* MultiView3Tests.m */; };
+		F9B88E801AB1259A00B9A63D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88E7E1AB1259A00B9A63D /* ViewController.m */; };
+		F9B88E811AB1259A00B9A63D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88E7F1AB1259A00B9A63D /* ViewController.xib */; };
+		F9B88E851AB125B200B9A63D /* FlipSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88E831AB125B200B9A63D /* FlipSideViewController.m */; };
+		F9B88E861AB125B200B9A63D /* FlipSideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88E841AB125B200B9A63D /* FlipSideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9B88E6E1AB1244F00B9A63D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B88E4C1AB1244E00B9A63D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9B88E531AB1244E00B9A63D;
+			remoteInfo = MultiView3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9B88E541AB1244E00B9A63D /* MultiView3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiView3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B88E581AB1244F00B9A63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B88E591AB1244F00B9A63D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9B88E5B1AB1244F00B9A63D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9B88E5C1AB1244F00B9A63D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9B88E641AB1244F00B9A63D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9B88E6D1AB1244F00B9A63D /* MultiView3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiView3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B88E721AB1244F00B9A63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B88E731AB1244F00B9A63D /* MultiView3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiView3Tests.m; sourceTree = "<group>"; };
+		F9B88E7D1AB1259A00B9A63D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9B88E7E1AB1259A00B9A63D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9B88E7F1AB1259A00B9A63D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		F9B88E821AB125B200B9A63D /* FlipSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipSideViewController.h; sourceTree = "<group>"; };
+		F9B88E831AB125B200B9A63D /* FlipSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipSideViewController.m; sourceTree = "<group>"; };
+		F9B88E841AB125B200B9A63D /* FlipSideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipSideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9B88E511AB1244E00B9A63D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B88E6A1AB1244F00B9A63D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9B88E4B1AB1244E00B9A63D = {
+			isa = PBXGroup;
+			children = (
+				F9B88E561AB1244E00B9A63D /* MultiView3 */,
+				F9B88E701AB1244F00B9A63D /* MultiView3Tests */,
+				F9B88E551AB1244E00B9A63D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9B88E551AB1244E00B9A63D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9B88E541AB1244E00B9A63D /* MultiView3.app */,
+				F9B88E6D1AB1244F00B9A63D /* MultiView3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9B88E561AB1244E00B9A63D /* MultiView3 */ = {
+			isa = PBXGroup;
+			children = (
+				F9B88E5B1AB1244F00B9A63D /* AppDelegate.h */,
+				F9B88E5C1AB1244F00B9A63D /* AppDelegate.m */,
+				F9B88E641AB1244F00B9A63D /* Images.xcassets */,
+				F9B88E571AB1244F00B9A63D /* Supporting Files */,
+				F9B88E7D1AB1259A00B9A63D /* ViewController.h */,
+				F9B88E7E1AB1259A00B9A63D /* ViewController.m */,
+				F9B88E7F1AB1259A00B9A63D /* ViewController.xib */,
+				F9B88E821AB125B200B9A63D /* FlipSideViewController.h */,
+				F9B88E831AB125B200B9A63D /* FlipSideViewController.m */,
+				F9B88E841AB125B200B9A63D /* FlipSideViewController.xib */,
+			);
+			path = MultiView3;
+			sourceTree = "<group>";
+		};
+		F9B88E571AB1244F00B9A63D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9B88E581AB1244F00B9A63D /* Info.plist */,
+				F9B88E591AB1244F00B9A63D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9B88E701AB1244F00B9A63D /* MultiView3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F9B88E731AB1244F00B9A63D /* MultiView3Tests.m */,
+				F9B88E711AB1244F00B9A63D /* Supporting Files */,
+			);
+			path = MultiView3Tests;
+			sourceTree = "<group>";
+		};
+		F9B88E711AB1244F00B9A63D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9B88E721AB1244F00B9A63D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9B88E531AB1244E00B9A63D /* MultiView3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B88E771AB1244F00B9A63D /* Build configuration list for PBXNativeTarget "MultiView3" */;
+			buildPhases = (
+				F9B88E501AB1244E00B9A63D /* Sources */,
+				F9B88E511AB1244E00B9A63D /* Frameworks */,
+				F9B88E521AB1244E00B9A63D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiView3;
+			productName = MultiView3;
+			productReference = F9B88E541AB1244E00B9A63D /* MultiView3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9B88E6C1AB1244F00B9A63D /* MultiView3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B88E7A1AB1244F00B9A63D /* Build configuration list for PBXNativeTarget "MultiView3Tests" */;
+			buildPhases = (
+				F9B88E691AB1244F00B9A63D /* Sources */,
+				F9B88E6A1AB1244F00B9A63D /* Frameworks */,
+				F9B88E6B1AB1244F00B9A63D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9B88E6F1AB1244F00B9A63D /* PBXTargetDependency */,
+			);
+			name = MultiView3Tests;
+			productName = MultiView3Tests;
+			productReference = F9B88E6D1AB1244F00B9A63D /* MultiView3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9B88E4C1AB1244E00B9A63D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = beila;
+				TargetAttributes = {
+					F9B88E531AB1244E00B9A63D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F9B88E6C1AB1244F00B9A63D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F9B88E531AB1244E00B9A63D;
+					};
+				};
+			};
+			buildConfigurationList = F9B88E4F1AB1244E00B9A63D /* Build configuration list for PBXProject "MultiView3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9B88E4B1AB1244E00B9A63D;
+			productRefGroup = F9B88E551AB1244E00B9A63D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9B88E531AB1244E00B9A63D /* MultiView3 */,
+				F9B88E6C1AB1244F00B9A63D /* MultiView3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9B88E521AB1244E00B9A63D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B88E811AB1259A00B9A63D /* ViewController.xib in Resources */,
+				F9B88E861AB125B200B9A63D /* FlipSideViewController.xib in Resources */,
+				F9B88E651AB1244F00B9A63D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B88E6B1AB1244F00B9A63D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9B88E501AB1244E00B9A63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B88E801AB1259A00B9A63D /* ViewController.m in Sources */,
+				F9B88E5D1AB1244F00B9A63D /* AppDelegate.m in Sources */,
+				F9B88E851AB125B200B9A63D /* FlipSideViewController.m in Sources */,
+				F9B88E5A1AB1244F00B9A63D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B88E691AB1244F00B9A63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B88E741AB1244F00B9A63D /* MultiView3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9B88E6F1AB1244F00B9A63D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9B88E531AB1244E00B9A63D /* MultiView3 */;
+			targetProxy = F9B88E6E1AB1244F00B9A63D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9B88E751AB1244F00B9A63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9B88E761AB1244F00B9A63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9B88E781AB1244F00B9A63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiView3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9B88E791AB1244F00B9A63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiView3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9B88E7B1AB1244F00B9A63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiView3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiView3.app/MultiView3";
+			};
+			name = Debug;
+		};
+		F9B88E7C1AB1244F00B9A63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiView3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiView3.app/MultiView3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9B88E4F1AB1244E00B9A63D /* Build configuration list for PBXProject "MultiView3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B88E751AB1244F00B9A63D /* Debug */,
+				F9B88E761AB1244F00B9A63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B88E771AB1244F00B9A63D /* Build configuration list for PBXNativeTarget "MultiView3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B88E781AB1244F00B9A63D /* Debug */,
+				F9B88E791AB1244F00B9A63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9B88E7A1AB1244F00B9A63D /* Build configuration list for PBXNativeTarget "MultiView3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B88E7B1AB1244F00B9A63D /* Debug */,
+				F9B88E7C1AB1244F00B9A63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9B88E4C1AB1244E00B9A63D /* Project object */;
+}
