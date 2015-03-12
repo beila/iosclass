@@ -18,6 +18,9 @@
 		F9B88F071AB1351E00B9A63D /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88F051AB1351E00B9A63D /* SecondViewController.xib */; };
 		F9B88F091AB136A300B9A63D /* André Le Nôtre's 400th Birthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9B88F081AB136A300B9A63D /* André Le Nôtre's 400th Birthday.jpg */; };
 		F9B88F0B1AB1390300B9A63D /* Charles Addams' 100th Birthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9B88F0A1AB1390300B9A63D /* Charles Addams' 100th Birthday.jpg */; };
+		F9B88F0F1AB13C0D00B9A63D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88F0D1AB13C0D00B9A63D /* ThirdViewController.m */; };
+		F9B88F101AB13C0D00B9A63D /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88F0E1AB13C0D00B9A63D /* ThirdViewController.xib */; };
+		F9B88F121AB13C2C00B9A63D /* International Women's Day 2015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9B88F111AB13C2C00B9A63D /* International Women's Day 2015.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,10 @@
 		F9B88F051AB1351E00B9A63D /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		F9B88F081AB136A300B9A63D /* André Le Nôtre's 400th Birthday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "André Le Nôtre's 400th Birthday.jpg"; sourceTree = "<group>"; };
 		F9B88F0A1AB1390300B9A63D /* Charles Addams' 100th Birthday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Charles Addams' 100th Birthday.jpg"; sourceTree = "<group>"; };
+		F9B88F0C1AB13C0D00B9A63D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F9B88F0D1AB13C0D00B9A63D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F9B88F0E1AB13C0D00B9A63D /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		F9B88F111AB13C2C00B9A63D /* International Women's Day 2015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "International Women's Day 2015.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +110,10 @@
 				F9B88F031AB1351E00B9A63D /* SecondViewController.h */,
 				F9B88F041AB1351E00B9A63D /* SecondViewController.m */,
 				F9B88F051AB1351E00B9A63D /* SecondViewController.xib */,
+				F9B88F0C1AB13C0D00B9A63D /* ThirdViewController.h */,
+				F9B88F111AB13C2C00B9A63D /* International Women's Day 2015.jpg */,
+				F9B88F0D1AB13C0D00B9A63D /* ThirdViewController.m */,
+				F9B88F0E1AB13C0D00B9A63D /* ThirdViewController.xib */,
 			);
 			path = NaviView1;
 			sourceTree = "<group>";
@@ -213,8 +224,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B88F101AB13C0D00B9A63D /* ThirdViewController.xib in Resources */,
 				F9B88F0B1AB1390300B9A63D /* Charles Addams' 100th Birthday.jpg in Resources */,
 				F9B88F071AB1351E00B9A63D /* SecondViewController.xib in Resources */,
+				F9B88F121AB13C2C00B9A63D /* International Women's Day 2015.jpg in Resources */,
 				F9B88F091AB136A300B9A63D /* André Le Nôtre's 400th Birthday.jpg in Resources */,
 				F9B88EE41AB1324200B9A63D /* Images.xcassets in Resources */,
 				F9B88F001AB132FA00B9A63D /* FirstViewController.xib in Resources */,
@@ -237,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9B88F061AB1351E00B9A63D /* SecondViewController.m in Sources */,
+				F9B88F0F1AB13C0D00B9A63D /* ThirdViewController.m in Sources */,
 				F9B88EDC1AB1324200B9A63D /* AppDelegate.m in Sources */,
 				F9B88EFF1AB132FA00B9A63D /* FirstViewController.m in Sources */,
 				F9B88ED91AB1324200B9A63D /* main.m in Sources */,
