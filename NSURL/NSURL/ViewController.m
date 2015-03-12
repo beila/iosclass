@@ -10,18 +10,44 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+- (IBAction)loadResource:(id)sender;
+- (IBAction)httpGet:(id)sender;
+- (IBAction)download1:(id)sender;
+- (IBAction)download2:(id)sender;
+- (IBAction)download3:(id)sender;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    NSLog(@"%s", __func__);
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)loadResource:(id)sender {
+    NSLog(@"%s", __func__);
+}
+
+- (IBAction)httpGet:(id)sender {
+    NSLog(@"%s", __func__);
+}
+
+- (IBAction)download1:(id)sender {
+    NSLog(@"%s", __func__);
+}
+
+- (IBAction)download2:(id)sender {
+    NSLog(@"%s", __func__);
+}
+
+- (IBAction)download3:(id)sender {
+    NSLog(@"%s", __func__);
+}
 @end
