@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,9 +20,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"%s", __func__);
     
-    UIWindow* window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    [window makeKeyAndVisible];
+    FirstViewController* fvc = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
+    fvc.title = @"First";
+    
+    SecondViewController* svc = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    svc.title = @"Second";
+    
+    UITabBarController* tabController = [[UITabBarController alloc] init];
+    tabController.viewControllers = @[fvc, svc];
+    _window.rootViewController = tabController;
+    
+    [_window makeKeyAndVisible];
     
     return YES;
 }
