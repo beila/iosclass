@@ -11,6 +11,8 @@
 		F9B88F251AB13DE700B9A63D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88F241AB13DE700B9A63D /* AppDelegate.m */; };
 		F9B88F3C1AB13DE700B9A63D /* MasterDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88F3B1AB13DE700B9A63D /* MasterDetailTests.m */; };
 		F9B88F461AB13E2500B9A63D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B88F451AB13E2500B9A63D /* Default-568h@2x.png */; };
+		F9B88F521AB158CA00B9A63D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B88F501AB158CA00B9A63D /* MasterViewController.m */; };
+		F9B88F531AB158CA00B9A63D /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B88F511AB158CA00B9A63D /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,9 @@
 		F9B88F3A1AB13DE700B9A63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9B88F3B1AB13DE700B9A63D /* MasterDetailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterDetailTests.m; sourceTree = "<group>"; };
 		F9B88F451AB13E2500B9A63D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F9B88F4F1AB158CA00B9A63D /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		F9B88F501AB158CA00B9A63D /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F9B88F511AB158CA00B9A63D /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,9 @@
 				F9B88F231AB13DE700B9A63D /* AppDelegate.h */,
 				F9B88F241AB13DE700B9A63D /* AppDelegate.m */,
 				F9B88F1F1AB13DE700B9A63D /* Supporting Files */,
+				F9B88F4F1AB158CA00B9A63D /* MasterViewController.h */,
+				F9B88F501AB158CA00B9A63D /* MasterViewController.m */,
+				F9B88F511AB158CA00B9A63D /* MasterViewController.xib */,
 			);
 			path = MasterDetail;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B88F531AB158CA00B9A63D /* MasterViewController.xib in Resources */,
 				F9B88F461AB13E2500B9A63D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9B88F251AB13DE700B9A63D /* AppDelegate.m in Sources */,
+				F9B88F521AB158CA00B9A63D /* MasterViewController.m in Sources */,
 				F9B88F221AB13DE700B9A63D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
