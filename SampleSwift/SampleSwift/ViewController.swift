@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var label: UILabel!
+    
+    @IBAction func click(sender: AnyObject) {
+        label.text = "Hello";
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
