@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyAlertView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    MyAlertView* alertView = [[MyAlertView alloc] initWithTitle:@"title"
+                                                        message:@"message"
+                                                       delegate:self
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+    [alertView show];
 }
 
 - (void)didReceiveMemoryWarning {
