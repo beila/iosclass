@@ -14,6 +14,7 @@
 		F9D8C3711AB2B89D00CB1D6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D8C3701AB2B89D00CB1D6D /* Images.xcassets */; };
 		F9D8C3741AB2B89D00CB1D6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D8C3721AB2B89D00CB1D6D /* LaunchScreen.xib */; };
 		F9D8C3801AB2B89D00CB1D6D /* BluetoothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D8C37F1AB2B89D00CB1D6D /* BluetoothTests.m */; };
+		F9D8C38A1AB2B96600CB1D6D /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D8C3891AB2B96600CB1D6D /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F9D8C3791AB2B89D00CB1D6D /* BluetoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D8C37E1AB2B89D00CB1D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9D8C37F1AB2B89D00CB1D6D /* BluetoothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothTests.m; sourceTree = "<group>"; };
+		F9D8C3891AB2B96600CB1D6D /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D8C38A1AB2B96600CB1D6D /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		F9D8C3571AB2B89D00CB1D6D = {
 			isa = PBXGroup;
 			children = (
+				F9D8C3891AB2B96600CB1D6D /* GameKit.framework */,
 				F9D8C3621AB2B89D00CB1D6D /* Bluetooth */,
 				F9D8C37C1AB2B89D00CB1D6D /* BluetoothTests */,
 				F9D8C3611AB2B89D00CB1D6D /* Products */,
