@@ -18,6 +18,9 @@
                                 <state key="normal" title="주소록 접근 권한 요청">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="authorize:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JGd-g3-2yO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dd9-za-OKA">
                                 <rect key="frame" x="16" y="85" width="288" height="57"/>
@@ -25,6 +28,9 @@
                                 <state key="normal" title="주소록 불러오기">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="load:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Mme-h5-74p"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2HZ-0N-oXM">
                                 <rect key="frame" x="16" y="150" width="288" height="398"/>
@@ -47,10 +53,17 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="p2J-6L-fhn"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="lmG-Gy-hs3"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="2HZ-0N-oXM" id="Mv6-qe-NCY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
