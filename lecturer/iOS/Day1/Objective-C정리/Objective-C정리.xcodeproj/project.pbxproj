@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2A8068916D842D100F244F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A8068816D842D100F244F7 /* Foundation.framework */; };
+		A2A8069016D842D100F244F7 /* Objective_C_____.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2A8068F16D842D100F244F7 /* Objective_C_____.1 */; };
+		A2A806F716D8ABCD00F244F7 /* 블럭프로그래밍.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A806F616D8ABCD00F244F7 /* 블럭프로그래밍.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2A8068316D842D100F244F7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A2A8069016D842D100F244F7 /* Objective_C_____.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A2A8068516D842D100F244F7 /* Objective-C정리 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C정리"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A8068816D842D100F244F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2A8068B16D842D100F244F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2A8068E16D842D100F244F7 /* Objective-C정리-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objective-C정리-Prefix.pch"; sourceTree = "<group>"; };
+		A2A8068F16D842D100F244F7 /* Objective_C_____.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Objective_C_____.1"; sourceTree = "<group>"; };
+		A2A8069716D846D800F244F7 /* 클래스기본문법.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "클래스기본문법.m"; sourceTree = "<group>"; };
+		A2A8069A16D8507A00F244F7 /* 메소드고급.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "메소드고급.m"; sourceTree = "<group>"; };
+		A2A8069D16D8595800F244F7 /* 셀렉터.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "셀렉터.m"; sourceTree = "<group>"; };
+		A2A806A016D8621100F244F7 /* 타겟액션.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "타겟액션.m"; sourceTree = "<group>"; };
+		A2A806A316D877E400F244F7 /* 초기화함수.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "초기화함수.m"; sourceTree = "<group>"; };
+		A2A806E716D8801900F244F7 /* 메모리관리.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "메모리관리.m"; sourceTree = "<group>"; };
+		A2A806EA16D8916600F244F7 /* 프라퍼티.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "프라퍼티.m"; sourceTree = "<group>"; };
+		A2A806ED16D8960C00F244F7 /* 프라퍼티2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "프라퍼티2.m"; sourceTree = "<group>"; };
+		A2A806F016D8A17D00F244F7 /* 프로토콜.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "프로토콜.m"; sourceTree = "<group>"; };
+		A2A806F316D8A91800F244F7 /* 클래스.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "클래스.m"; sourceTree = "<group>"; };
+		A2A806F616D8ABCD00F244F7 /* 블럭프로그래밍.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "블럭프로그래밍.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2A8068216D842D100F244F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A8068916D842D100F244F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2A8067C16D842D100F244F7 = {
+			isa = PBXGroup;
+			children = (
+				A2A8068A16D842D100F244F7 /* Objective-C정리 */,
+				A2A8068716D842D100F244F7 /* Frameworks */,
+				A2A8068616D842D100F244F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2A8068616D842D100F244F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A8068516D842D100F244F7 /* Objective-C정리 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2A8068716D842D100F244F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2A8068816D842D100F244F7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2A8068A16D842D100F244F7 /* Objective-C정리 */ = {
+			isa = PBXGroup;
+			children = (
+				A2A8068B16D842D100F244F7 /* main.m */,
+				A2A8068F16D842D100F244F7 /* Objective_C_____.1 */,
+				A2A8068D16D842D100F244F7 /* Supporting Files */,
+				A2A8069716D846D800F244F7 /* 클래스기본문법.m */,
+				A2A8069A16D8507A00F244F7 /* 메소드고급.m */,
+				A2A8069D16D8595800F244F7 /* 셀렉터.m */,
+				A2A806A016D8621100F244F7 /* 타겟액션.m */,
+				A2A806A316D877E400F244F7 /* 초기화함수.m */,
+				A2A806E716D8801900F244F7 /* 메모리관리.m */,
+				A2A806EA16D8916600F244F7 /* 프라퍼티.m */,
+				A2A806ED16D8960C00F244F7 /* 프라퍼티2.m */,
+				A2A806F016D8A17D00F244F7 /* 프로토콜.m */,
+				A2A806F316D8A91800F244F7 /* 클래스.m */,
+				A2A806F616D8ABCD00F244F7 /* 블럭프로그래밍.m */,
+			);
+			path = "Objective-C정리";
+			sourceTree = "<group>";
+		};
+		A2A8068D16D842D100F244F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2A8068E16D842D100F244F7 /* Objective-C정리-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2A8068416D842D100F244F7 /* Objective-C정리 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A8069316D842D100F244F7 /* Build configuration list for PBXNativeTarget "Objective-C정리" */;
+			buildPhases = (
+				A2A8068116D842D100F244F7 /* Sources */,
+				A2A8068216D842D100F244F7 /* Frameworks */,
+				A2A8068316D842D100F244F7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Objective-C정리";
+			productName = "Objective-C정리";
+			productReference = A2A8068516D842D100F244F7 /* Objective-C정리 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2A8067D16D842D100F244F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = imguru;
+			};
+			buildConfigurationList = A2A8068016D842D100F244F7 /* Build configuration list for PBXProject "Objective-C정리" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2A8067C16D842D100F244F7;
+			productRefGroup = A2A8068616D842D100F244F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2A8068416D842D100F244F7 /* Objective-C정리 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A8068116D842D100F244F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A806F716D8ABCD00F244F7 /* 블럭프로그래밍.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2A8069116D842D100F244F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A2A8069216D842D100F244F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A2A8069416D842D100F244F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objective-C정리/Objective-C정리-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2A8069516D842D100F244F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Objective-C정리/Objective-C정리-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2A8068016D842D100F244F7 /* Build configuration list for PBXProject "Objective-C정리" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A8069116D842D100F244F7 /* Debug */,
+				A2A8069216D842D100F244F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A8069316D842D100F244F7 /* Build configuration list for PBXNativeTarget "Objective-C정리" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A8069416D842D100F244F7 /* Debug */,
+				A2A8069516D842D100F244F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2A8067D16D842D100F244F7 /* Project object */;
+}

@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC77299E16EAD74300B2C451 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC77299D16EAD74300B2C451 /* UIKit.framework */; };
+		BC7729A016EAD74300B2C451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC77299F16EAD74300B2C451 /* Foundation.framework */; };
+		BC7729A216EAD74300B2C451 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7729A116EAD74300B2C451 /* CoreGraphics.framework */; };
+		BC7729A816EAD74300B2C451 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC7729A616EAD74300B2C451 /* InfoPlist.strings */; };
+		BC7729AA16EAD74300B2C451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7729A916EAD74300B2C451 /* main.m */; };
+		BC7729AE16EAD74300B2C451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7729AD16EAD74300B2C451 /* AppDelegate.m */; };
+		BC7729B016EAD74300B2C451 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7729AF16EAD74300B2C451 /* Default.png */; };
+		BC7729B216EAD74300B2C451 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7729B116EAD74300B2C451 /* Default@2x.png */; };
+		BC7729B416EAD74300B2C451 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7729B316EAD74300B2C451 /* Default-568h@2x.png */; };
+		BC7729B716EAD74300B2C451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7729B616EAD74300B2C451 /* ViewController.m */; };
+		BC7729BA16EAD74300B2C451 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC7729B816EAD74300B2C451 /* ViewController.xib */; };
+		BC7729C216EAD74400B2C451 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7729C116EAD74400B2C451 /* SenTestingKit.framework */; };
+		BC7729C316EAD74400B2C451 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC77299D16EAD74300B2C451 /* UIKit.framework */; };
+		BC7729C416EAD74400B2C451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC77299F16EAD74300B2C451 /* Foundation.framework */; };
+		BC7729CC16EAD74400B2C451 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC7729CA16EAD74400B2C451 /* InfoPlist.strings */; };
+		BC7729CF16EAD74400B2C451 /* GestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7729CE16EAD74400B2C451 /* GestureTests.m */; };
+		BC7729D916EAD76C00B2C451 /* campfire.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7729D816EAD76C00B2C451 /* campfire.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC7729C516EAD74400B2C451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC77299216EAD74300B2C451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC77299916EAD74300B2C451;
+			remoteInfo = Gesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC77299A16EAD74300B2C451 /* Gesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC77299D16EAD74300B2C451 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC77299F16EAD74300B2C451 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC7729A116EAD74300B2C451 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC7729A516EAD74300B2C451 /* Gesture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gesture-Info.plist"; sourceTree = "<group>"; };
+		BC7729A716EAD74300B2C451 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC7729A916EAD74300B2C451 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC7729AB16EAD74300B2C451 /* Gesture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gesture-Prefix.pch"; sourceTree = "<group>"; };
+		BC7729AC16EAD74300B2C451 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC7729AD16EAD74300B2C451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC7729AF16EAD74300B2C451 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BC7729B116EAD74300B2C451 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BC7729B316EAD74300B2C451 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BC7729B516EAD74300B2C451 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC7729B616EAD74300B2C451 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC7729B916EAD74300B2C451 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BC7729C016EAD74400B2C451 /* GestureTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7729C116EAD74400B2C451 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC7729C916EAD74400B2C451 /* GestureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestureTests-Info.plist"; sourceTree = "<group>"; };
+		BC7729CB16EAD74400B2C451 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC7729CD16EAD74400B2C451 /* GestureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureTests.h; sourceTree = "<group>"; };
+		BC7729CE16EAD74400B2C451 /* GestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureTests.m; sourceTree = "<group>"; };
+		BC7729D816EAD76C00B2C451 /* campfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC77299716EAD74300B2C451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC77299E16EAD74300B2C451 /* UIKit.framework in Frameworks */,
+				BC7729A016EAD74300B2C451 /* Foundation.framework in Frameworks */,
+				BC7729A216EAD74300B2C451 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7729BC16EAD74400B2C451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7729C216EAD74400B2C451 /* SenTestingKit.framework in Frameworks */,
+				BC7729C316EAD74400B2C451 /* UIKit.framework in Frameworks */,
+				BC7729C416EAD74400B2C451 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC77299116EAD74300B2C451 = {
+			isa = PBXGroup;
+			children = (
+				BC7729A316EAD74300B2C451 /* Gesture */,
+				BC7729C716EAD74400B2C451 /* GestureTests */,
+				BC77299C16EAD74300B2C451 /* Frameworks */,
+				BC77299B16EAD74300B2C451 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC77299B16EAD74300B2C451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC77299A16EAD74300B2C451 /* Gesture.app */,
+				BC7729C016EAD74400B2C451 /* GestureTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC77299C16EAD74300B2C451 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC77299D16EAD74300B2C451 /* UIKit.framework */,
+				BC77299F16EAD74300B2C451 /* Foundation.framework */,
+				BC7729A116EAD74300B2C451 /* CoreGraphics.framework */,
+				BC7729C116EAD74400B2C451 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC7729A316EAD74300B2C451 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				BC7729AC16EAD74300B2C451 /* AppDelegate.h */,
+				BC7729AD16EAD74300B2C451 /* AppDelegate.m */,
+				BC7729B516EAD74300B2C451 /* ViewController.h */,
+				BC7729B616EAD74300B2C451 /* ViewController.m */,
+				BC7729B816EAD74300B2C451 /* ViewController.xib */,
+				BC7729D816EAD76C00B2C451 /* campfire.png */,
+				BC7729A416EAD74300B2C451 /* Supporting Files */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		BC7729A416EAD74300B2C451 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC7729A516EAD74300B2C451 /* Gesture-Info.plist */,
+				BC7729A616EAD74300B2C451 /* InfoPlist.strings */,
+				BC7729A916EAD74300B2C451 /* main.m */,
+				BC7729AB16EAD74300B2C451 /* Gesture-Prefix.pch */,
+				BC7729AF16EAD74300B2C451 /* Default.png */,
+				BC7729B116EAD74300B2C451 /* Default@2x.png */,
+				BC7729B316EAD74300B2C451 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC7729C716EAD74400B2C451 /* GestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC7729CD16EAD74400B2C451 /* GestureTests.h */,
+				BC7729CE16EAD74400B2C451 /* GestureTests.m */,
+				BC7729C816EAD74400B2C451 /* Supporting Files */,
+			);
+			path = GestureTests;
+			sourceTree = "<group>";
+		};
+		BC7729C816EAD74400B2C451 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC7729C916EAD74400B2C451 /* GestureTests-Info.plist */,
+				BC7729CA16EAD74400B2C451 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC77299916EAD74300B2C451 /* Gesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7729D216EAD74400B2C451 /* Build configuration list for PBXNativeTarget "Gesture" */;
+			buildPhases = (
+				BC77299616EAD74300B2C451 /* Sources */,
+				BC77299716EAD74300B2C451 /* Frameworks */,
+				BC77299816EAD74300B2C451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gesture;
+			productName = Gesture;
+			productReference = BC77299A16EAD74300B2C451 /* Gesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC7729BF16EAD74400B2C451 /* GestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7729D516EAD74400B2C451 /* Build configuration list for PBXNativeTarget "GestureTests" */;
+			buildPhases = (
+				BC7729BB16EAD74400B2C451 /* Sources */,
+				BC7729BC16EAD74400B2C451 /* Frameworks */,
+				BC7729BD16EAD74400B2C451 /* Resources */,
+				BC7729BE16EAD74400B2C451 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC7729C616EAD74400B2C451 /* PBXTargetDependency */,
+			);
+			name = GestureTests;
+			productName = GestureTests;
+			productReference = BC7729C016EAD74400B2C451 /* GestureTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC77299216EAD74300B2C451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ioacademy;
+				TargetAttributes = {
+					BC77299916EAD74300B2C451 = {
+						DevelopmentTeam = WGNR3WTRE5;
+					};
+				};
+			};
+			buildConfigurationList = BC77299516EAD74300B2C451 /* Build configuration list for PBXProject "Gesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC77299116EAD74300B2C451;
+			productRefGroup = BC77299B16EAD74300B2C451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC77299916EAD74300B2C451 /* Gesture */,
+				BC7729BF16EAD74400B2C451 /* GestureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC77299816EAD74300B2C451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7729A816EAD74300B2C451 /* InfoPlist.strings in Resources */,
+				BC7729B016EAD74300B2C451 /* Default.png in Resources */,
+				BC7729B216EAD74300B2C451 /* Default@2x.png in Resources */,
+				BC7729B416EAD74300B2C451 /* Default-568h@2x.png in Resources */,
+				BC7729BA16EAD74300B2C451 /* ViewController.xib in Resources */,
+				BC7729D916EAD76C00B2C451 /* campfire.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7729BD16EAD74400B2C451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7729CC16EAD74400B2C451 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC7729BE16EAD74400B2C451 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC77299616EAD74300B2C451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7729AA16EAD74300B2C451 /* main.m in Sources */,
+				BC7729AE16EAD74300B2C451 /* AppDelegate.m in Sources */,
+				BC7729B716EAD74300B2C451 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7729BB16EAD74400B2C451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7729CF16EAD74400B2C451 /* GestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC7729C616EAD74400B2C451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC77299916EAD74300B2C451 /* Gesture */;
+			targetProxy = BC7729C516EAD74400B2C451 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC7729A616EAD74300B2C451 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7729A716EAD74300B2C451 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC7729B816EAD74300B2C451 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7729B916EAD74300B2C451 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		BC7729CA16EAD74400B2C451 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7729CB16EAD74400B2C451 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC7729D016EAD74400B2C451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC7729D116EAD74400B2C451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC7729D316EAD74400B2C451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gesture/Gesture-Prefix.pch";
+				INFOPLIST_FILE = "Gesture/Gesture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC7729D416EAD74400B2C451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gesture/Gesture-Prefix.pch";
+				INFOPLIST_FILE = "Gesture/Gesture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC7729D616EAD74400B2C451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gesture.app/Gesture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gesture/Gesture-Prefix.pch";
+				INFOPLIST_FILE = "GestureTests/GestureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BC7729D716EAD74400B2C451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gesture.app/Gesture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gesture/Gesture-Prefix.pch";
+				INFOPLIST_FILE = "GestureTests/GestureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC77299516EAD74300B2C451 /* Build configuration list for PBXProject "Gesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7729D016EAD74400B2C451 /* Debug */,
+				BC7729D116EAD74400B2C451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7729D216EAD74400B2C451 /* Build configuration list for PBXNativeTarget "Gesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7729D316EAD74400B2C451 /* Debug */,
+				BC7729D416EAD74400B2C451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7729D516EAD74400B2C451 /* Build configuration list for PBXNativeTarget "GestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7729D616EAD74400B2C451 /* Debug */,
+				BC7729D716EAD74400B2C451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC77299216EAD74300B2C451 /* Project object */;
+}

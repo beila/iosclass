@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCB4582016FD628100E7C5AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB4581F16FD628100E7C5AC /* UIKit.framework */; };
+		BCB4582216FD628100E7C5AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB4582116FD628100E7C5AC /* Foundation.framework */; };
+		BCB4582416FD628100E7C5AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB4582316FD628100E7C5AC /* CoreGraphics.framework */; };
+		BCB4582A16FD628100E7C5AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCB4582816FD628100E7C5AC /* InfoPlist.strings */; };
+		BCB4582C16FD628100E7C5AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB4582B16FD628100E7C5AC /* main.m */; };
+		BCB4583016FD628100E7C5AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB4582F16FD628100E7C5AC /* AppDelegate.m */; };
+		BCB4583216FD628100E7C5AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB4583116FD628100E7C5AC /* Default.png */; };
+		BCB4583416FD628100E7C5AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB4583316FD628100E7C5AC /* Default@2x.png */; };
+		BCB4583616FD628100E7C5AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB4583516FD628100E7C5AC /* Default-568h@2x.png */; };
+		BCB4583916FD628100E7C5AC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB4583716FD628100E7C5AC /* MainStoryboard.storyboard */; };
+		BCB4583C16FD628100E7C5AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB4583B16FD628100E7C5AC /* ViewController.m */; };
+		BCB4584416FD628100E7C5AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB4584316FD628100E7C5AC /* SenTestingKit.framework */; };
+		BCB4584516FD628100E7C5AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB4581F16FD628100E7C5AC /* UIKit.framework */; };
+		BCB4584616FD628100E7C5AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB4582116FD628100E7C5AC /* Foundation.framework */; };
+		BCB4584E16FD628100E7C5AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCB4584C16FD628100E7C5AC /* InfoPlist.strings */; };
+		BCB4585116FD628100E7C5AC /* SensorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB4585016FD628100E7C5AC /* SensorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCB4584716FD628100E7C5AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB4581416FD628100E7C5AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCB4581B16FD628100E7C5AC;
+			remoteInfo = Sensor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCB4581C16FD628100E7C5AC /* Sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB4581F16FD628100E7C5AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCB4582116FD628100E7C5AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCB4582316FD628100E7C5AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCB4582716FD628100E7C5AC /* Sensor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sensor-Info.plist"; sourceTree = "<group>"; };
+		BCB4582916FD628100E7C5AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCB4582B16FD628100E7C5AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCB4582D16FD628100E7C5AC /* Sensor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sensor-Prefix.pch"; sourceTree = "<group>"; };
+		BCB4582E16FD628100E7C5AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCB4582F16FD628100E7C5AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCB4583116FD628100E7C5AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BCB4583316FD628100E7C5AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BCB4583516FD628100E7C5AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BCB4583816FD628100E7C5AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BCB4583A16FD628100E7C5AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCB4583B16FD628100E7C5AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCB4584216FD628100E7C5AC /* SensorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB4584316FD628100E7C5AC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BCB4584B16FD628100E7C5AC /* SensorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SensorTests-Info.plist"; sourceTree = "<group>"; };
+		BCB4584D16FD628100E7C5AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCB4584F16FD628100E7C5AC /* SensorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensorTests.h; sourceTree = "<group>"; };
+		BCB4585016FD628100E7C5AC /* SensorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCB4581916FD628100E7C5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB4582016FD628100E7C5AC /* UIKit.framework in Frameworks */,
+				BCB4582216FD628100E7C5AC /* Foundation.framework in Frameworks */,
+				BCB4582416FD628100E7C5AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB4583E16FD628100E7C5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB4584416FD628100E7C5AC /* SenTestingKit.framework in Frameworks */,
+				BCB4584516FD628100E7C5AC /* UIKit.framework in Frameworks */,
+				BCB4584616FD628100E7C5AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCB4581316FD628100E7C5AC = {
+			isa = PBXGroup;
+			children = (
+				BCB4582516FD628100E7C5AC /* Sensor */,
+				BCB4584916FD628100E7C5AC /* SensorTests */,
+				BCB4581E16FD628100E7C5AC /* Frameworks */,
+				BCB4581D16FD628100E7C5AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCB4581D16FD628100E7C5AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB4581C16FD628100E7C5AC /* Sensor.app */,
+				BCB4584216FD628100E7C5AC /* SensorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCB4581E16FD628100E7C5AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCB4581F16FD628100E7C5AC /* UIKit.framework */,
+				BCB4582116FD628100E7C5AC /* Foundation.framework */,
+				BCB4582316FD628100E7C5AC /* CoreGraphics.framework */,
+				BCB4584316FD628100E7C5AC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCB4582516FD628100E7C5AC /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				BCB4582E16FD628100E7C5AC /* AppDelegate.h */,
+				BCB4582F16FD628100E7C5AC /* AppDelegate.m */,
+				BCB4583716FD628100E7C5AC /* MainStoryboard.storyboard */,
+				BCB4583A16FD628100E7C5AC /* ViewController.h */,
+				BCB4583B16FD628100E7C5AC /* ViewController.m */,
+				BCB4582616FD628100E7C5AC /* Supporting Files */,
+			);
+			path = Sensor;
+			sourceTree = "<group>";
+		};
+		BCB4582616FD628100E7C5AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCB4582716FD628100E7C5AC /* Sensor-Info.plist */,
+				BCB4582816FD628100E7C5AC /* InfoPlist.strings */,
+				BCB4582B16FD628100E7C5AC /* main.m */,
+				BCB4582D16FD628100E7C5AC /* Sensor-Prefix.pch */,
+				BCB4583116FD628100E7C5AC /* Default.png */,
+				BCB4583316FD628100E7C5AC /* Default@2x.png */,
+				BCB4583516FD628100E7C5AC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCB4584916FD628100E7C5AC /* SensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCB4584F16FD628100E7C5AC /* SensorTests.h */,
+				BCB4585016FD628100E7C5AC /* SensorTests.m */,
+				BCB4584A16FD628100E7C5AC /* Supporting Files */,
+			);
+			path = SensorTests;
+			sourceTree = "<group>";
+		};
+		BCB4584A16FD628100E7C5AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCB4584B16FD628100E7C5AC /* SensorTests-Info.plist */,
+				BCB4584C16FD628100E7C5AC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCB4581B16FD628100E7C5AC /* Sensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB4585416FD628100E7C5AC /* Build configuration list for PBXNativeTarget "Sensor" */;
+			buildPhases = (
+				BCB4581816FD628100E7C5AC /* Sources */,
+				BCB4581916FD628100E7C5AC /* Frameworks */,
+				BCB4581A16FD628100E7C5AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sensor;
+			productName = Sensor;
+			productReference = BCB4581C16FD628100E7C5AC /* Sensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCB4584116FD628100E7C5AC /* SensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB4585716FD628100E7C5AC /* Build configuration list for PBXNativeTarget "SensorTests" */;
+			buildPhases = (
+				BCB4583D16FD628100E7C5AC /* Sources */,
+				BCB4583E16FD628100E7C5AC /* Frameworks */,
+				BCB4583F16FD628100E7C5AC /* Resources */,
+				BCB4584016FD628100E7C5AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB4584816FD628100E7C5AC /* PBXTargetDependency */,
+			);
+			name = SensorTests;
+			productName = SensorTests;
+			productReference = BCB4584216FD628100E7C5AC /* SensorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCB4581416FD628100E7C5AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ioacademy;
+			};
+			buildConfigurationList = BCB4581716FD628100E7C5AC /* Build configuration list for PBXProject "Sensor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCB4581316FD628100E7C5AC;
+			productRefGroup = BCB4581D16FD628100E7C5AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCB4581B16FD628100E7C5AC /* Sensor */,
+				BCB4584116FD628100E7C5AC /* SensorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCB4581A16FD628100E7C5AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB4582A16FD628100E7C5AC /* InfoPlist.strings in Resources */,
+				BCB4583216FD628100E7C5AC /* Default.png in Resources */,
+				BCB4583416FD628100E7C5AC /* Default@2x.png in Resources */,
+				BCB4583616FD628100E7C5AC /* Default-568h@2x.png in Resources */,
+				BCB4583916FD628100E7C5AC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB4583F16FD628100E7C5AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB4584E16FD628100E7C5AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCB4584016FD628100E7C5AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCB4581816FD628100E7C5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB4582C16FD628100E7C5AC /* main.m in Sources */,
+				BCB4583016FD628100E7C5AC /* AppDelegate.m in Sources */,
+				BCB4583C16FD628100E7C5AC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB4583D16FD628100E7C5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB4585116FD628100E7C5AC /* SensorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCB4584816FD628100E7C5AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCB4581B16FD628100E7C5AC /* Sensor */;
+			targetProxy = BCB4584716FD628100E7C5AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCB4582816FD628100E7C5AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB4582916FD628100E7C5AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCB4583716FD628100E7C5AC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB4583816FD628100E7C5AC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		BCB4584C16FD628100E7C5AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB4584D16FD628100E7C5AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCB4585216FD628100E7C5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCB4585316FD628100E7C5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB4585516FD628100E7C5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sensor/Sensor-Prefix.pch";
+				INFOPLIST_FILE = "Sensor/Sensor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCB4585616FD628100E7C5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sensor/Sensor-Prefix.pch";
+				INFOPLIST_FILE = "Sensor/Sensor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCB4585816FD628100E7C5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sensor.app/Sensor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sensor/Sensor-Prefix.pch";
+				INFOPLIST_FILE = "SensorTests/SensorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BCB4585916FD628100E7C5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sensor.app/Sensor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sensor/Sensor-Prefix.pch";
+				INFOPLIST_FILE = "SensorTests/SensorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCB4581716FD628100E7C5AC /* Build configuration list for PBXProject "Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB4585216FD628100E7C5AC /* Debug */,
+				BCB4585316FD628100E7C5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB4585416FD628100E7C5AC /* Build configuration list for PBXNativeTarget "Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB4585516FD628100E7C5AC /* Debug */,
+				BCB4585616FD628100E7C5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCB4585716FD628100E7C5AC /* Build configuration list for PBXNativeTarget "SensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB4585816FD628100E7C5AC /* Debug */,
+				BCB4585916FD628100E7C5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCB4581416FD628100E7C5AC /* Project object */;
+}
