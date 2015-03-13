@@ -1,0 +1,13 @@
+//
+//  MyAlertView.h
+//  CustomControl
+//
+//  Created by chansigi on 3/4/15.
+//  Copyright (c) 2015 IOACADEMY. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface MyAlertView : UIAlertView
+
+@end
